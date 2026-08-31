@@ -70,7 +70,6 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 ### Image Libs: Converters, Resizers, etc. pp
 
 - [`CVE-2023-34153`](https://nvd.nist.gov/vuln/detail/CVE-2023-34153) - Command injection via `video:vsync` or `video:pixel-format` [`Fix`](https://github.com/ImageMagick/ImageMagick/issues/6338) `2023-05-30`.
-- [ImageMagick: The hidden vulnerability behind your online images](https://www.metabaseq.com/imagemagick-zero-days/) - `2023-02-01`.
 - [`CVE-2022-44268`](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC) - Arbitrary File Read over ImageMagick [`#1858574`](https://hackerone.com/reports/1858574) [`alternative`](https://github.com/voidz0r/CVE-2022-44268).
 - [ImageMagick - Shell injection via PDF password](https://insert-script.blogspot.com/2020/11/imagemagick-shell-injection-via-pdf.html) - `2021-11-21`.
 - [`#1154542`](https://hackerone.com/reports/1154542) - RCE in GitLab when removing metadata with ExifTool [Video](https://www.youtube.com/watch?v=PZ-H099IaWo) `2021-04-07`.
@@ -121,8 +120,6 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ### SQLi
 
-- [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list) - SQL Injection Payload List.
-
 ### URL Parsers
 
 - [`RFC 3986`](https://www.rfc-editor.org/rfc/rfc3986) - Official RFC Uniform Resource Identifier (URI) `2005-01`.
@@ -157,7 +154,6 @@ Multiple single vulnerabilities combined to create a more significant one.
 - [Two XSS Vulnerabilities in Azure with Embedded postMessage IFrames](https://orca.security/resources/blog/examining-two-xss-vulnerabilities-in-azure-services/) - iframe, postMessage and XSS `2023-06-14`.
 - [A smorgasbord of a bug chain: postMessage, JSONP, WAF bypass, DOM-based XSS, CORS, CSRF…](https://jub0bs.com/posts/2023-05-05-smorgasbord-of-a-bug-chain/) - a complex bug chain consisting of an insecure message event listener, a shoddy JSONP endpoint, a WAF bypass, DOM-based XSS on an out-of-scope subdomain, and a permissive CORS configuration `2023-05-05`.
 - [`#1032610`](https://hackerone.com/reports/1032610) - Chaining requests to bypass a blacklist `2020-11-12`.
-- [WordPress Transposh: Exploiting a Blind SQL Injection via XSS](https://www.rcesecurity.com/2022/07/WordPress-Transposh-Exploiting-a-Blind-SQL-Injection-via-XSS/) - combining three CVEs using weak default config, using stored XSS, and blind SQL `2022-07-22`. 
 - [XXE-scape through the front door: circumventing the firewall with HTTP request smuggling](https://honoki.net/2020/03/18/xxe-scape-through-the-front-door-circumventing-the-firewall-with-http-request-smuggling/) - XML External Entity injection (XXE) vulnerability combined with request smuggling `2020-03-18`.
 
 
